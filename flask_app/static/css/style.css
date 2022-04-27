@@ -1,0 +1,39 @@
+/* * {
+    background-color: blue;
+} */
+
+
+.page-title {
+    padding: 40px;
+}
+
+p {
+    color: blueviolet;
+}
+
+#python-logo, #flask-logo, #mysql-logo {
+    height: 100px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#nav-bar {
+    background-color: rgb(255, 240, 253);
+}
+
+
